@@ -1,0 +1,40 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lets-Talk</title>
+    <script src =" https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js">
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <!-- <main> -->
+    <!-- <header>
+      <div class="title">
+        <h1>V Talk</h1>
+      </div>
+      <button type="button" name="button">send</button>
+    </header> -->
+    <!-- </main> -->
+      <h1 class="main">V Talk</h1>
+      <h2 class="heading" >Real time chat application</h2>
+
+      <div class="contents">
+    <input type="text" id="username"  />
+    <button type="submit" id="change_username" class="btn btn-primary" style="width:200px";>Change Username</button>
+    <div id="feedback">
+
+    </div>
+    <input type="text" id="message" value="" >
+    <button type="submit" id="change_message" class="btn btn-primary" style="width:200px;">Send Message</button>
+  </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="chat.js">
+
+  </script>
+
+</html>
